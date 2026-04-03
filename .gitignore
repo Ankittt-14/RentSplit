@@ -1,0 +1,58 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# testing
+coverage
+
+# production
+build/
+dist/
+web-build/
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo
+.expo/
+expo-env.d.ts
+
+# Native
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Metro
+.metro-health-check*
+
+# typescript
+*.tsbuildinfo
+
+# generated native folders
+/client/ios
+/client/android
+
+# Root diag files (optional, but probably good to keep repository clean)
+diag.js
+diag_bihar.js
+server/diag_bihar.js
+server/diag_final.txt
+server/diag_output.txt
+server/diag_output_utf8.txt
+server/diag_utf8.txt
+testEmail.js
+testModels.js
+testOwed.js
