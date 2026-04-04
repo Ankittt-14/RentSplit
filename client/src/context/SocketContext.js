@@ -4,7 +4,7 @@ import { io } from "socket.io-client";
 import { useAuth } from "./AuthContext";
 
 // Same IP as api.js — just without /api at the end
-const SOCKET_URL = "http://10.130.226.200:5000";
+const SOCKET_URL = "https://rentsplit-mqyq.onrender.com";
 
 const SocketContext = createContext(null);
 

@@ -9,7 +9,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 // Your phone and PC must be on the SAME WiFi network!
 // Example: "http://10.245.146.200:5000/api"
 
-export const BASE_URL = "http://10.130.226.200:5000/api";
+export const BASE_URL = "https://rentsplit-mqyq.onrender.com/api";
 
 const api = axios.create({
   baseURL: BASE_URL,
